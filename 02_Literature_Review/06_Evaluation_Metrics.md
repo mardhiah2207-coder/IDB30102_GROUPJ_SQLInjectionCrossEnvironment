@@ -56,4 +56,4 @@ Processing time is included to evaluate not only detection effectiveness but als
 | F1-score | Balance between precision and recall |
 | Processing Time | Computational efficiency |
 
-Using multiple evaluation metrics provides a more comprehensive assessment than relying on accuracy alone. The results from different datasets will be compared to determine whether the model maintains consistent performance.
+Using multiple evaluation metrics offers  more comprehensive assessment than relying on accuracy alone. The results from different datasets will be compared to determine whether the model maintains consistent performance.
