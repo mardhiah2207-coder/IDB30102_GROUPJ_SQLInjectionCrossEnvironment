@@ -22,9 +22,10 @@ ML approaches can automatically learn patterns from data and provide strong clas
 
 ## 4. Deep Learning Approaches
 
-Deep learning approaches have also been investigated for SQL Injection detection. Zulu et al. (2024) used contextualised embeddings with RoBERTa and reported approximately 99% accuracy, while Liu and Dai (2024) used BERT-LSTM and achieved an F1-score of 95.8%.
+Deep learning represents a more advanced direction in SQL Injection detection because deep learning models can learn more complex representations from input data. Hosen et al. (2026) specifically highlighted the importance of lightweight and interpretable detection by using a Decision Tree with SHAP. This suggests that high detection performance should not be considered independently from computational efficiency and interpretability.
 
-These approaches can capture complex contextual and sequential patterns. However, they generally require greater computational resources and have higher model complexity compared with conventional ML approaches.
+Therefore, deep learning is recognised as a potential advanced direction in SQL Injection detection, but it is not selected as the proposed approach in this research. The proposed study instead focuses on Random Forest because it provides a practical balance between classification capability, computational feasibility and interpretability for evaluating cross-dataset generalisation.
+
 
 ## 5. Comparative Analysis
 
