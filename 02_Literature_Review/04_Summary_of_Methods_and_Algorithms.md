@@ -2,18 +2,20 @@
 
 The reviewed literature identifies several techniques used for SQL Injection detection and prevention.
 
-| Method / Algorithm | Type | Example Study | Main Purpose |
-|---|---|---|---|
-| Aho-Corasick | Pattern Matching | Kini et al. (2022) | Detect known SQL Injection patterns |
-| Parameterised Queries | Prevention | Okesola et al. (2023) | Prevent malicious input from being executed as SQL |
-| SVM | Machine Learning | Ibrohim & Suryani (2023) | Classify SQL queries |
-| Naïve Bayes | Machine Learning | Ibrohim & Suryani (2023) | Classify legitimate and malicious queries |
-| Random Forest | Machine Learning | Previous ML literature | Classification using multiple decision trees |
-| RoBERTa | Deep Learning | Zulu et al. (2024) | Capture contextual information in SQL queries |
-| BERT-LSTM | Deep Learning | Liu & Dai (2024) | Capture contextual and sequential patterns |
-| AST-based Trident | Structural Analysis | Li et al. (2024) | Analyse SQL query structures |
-| XGBoost | Machine Learning | Pansare et al. (2025) | Classify SQL Injection queries |
-| Decision Tree + SHAP | Machine Learning / Explainable AI | Hosen et al. (2026) | Detection with model interpretation |
+# Summary of Methods and Algorithms
+
+| Method / Algorithm | Supporting Paper(s) | Purpose | Strength | Limitation |
+|---|---|---|---|---|
+| Aho-Corasick | Kini et al. (2022) | Pattern matching for SQLi detection | Simple and effective for known patterns | Dependent on predefined patterns and weak against new mutations |
+| Parameterised Queries | Okesola et al. (2023) | Prevent malicious input from changing SQL query structure | Effective preventive development practice | Does not perform ML-based SQLi classification |
+| SVM | Ibrohim & Suryani (2023) | Classify SQL queries | Effective classification when combined with suitable features | Performance depends on feature representation and dataset |
+| Naïve Bayes | Ibrohim & Suryani (2023) | Classify SQL queries | Simple and suitable for text-based classification | Dependent on feature representation and dataset |
+| Random Forest | Shah et al. (2024); Falowo et al. (2025); Toktassyn & Al-Hubaishi (2026) | Classify malicious and legitimate SQL queries | Strong classification performance and relatively interpretable | Performance may depend on training dataset and features |
+| XGBoost | Pansare et al. (2025) | Classify SQL queries using TF-IDF features | Very high reported classification performance | Performance may be dataset-dependent and can involve greater model complexity |
+| Decision Tree | Hosen et al. (2026); Falowo et al. (2025) | SQLi classification | Lightweight and interpretable | May have limitations when handling more complex patterns |
+| Stacking Ensemble | Falowo et al. (2025) | Combine several ML classifiers | Combines strengths of multiple models | More complex and may require additional processing |
+| TF-IDF | Ibrohim & Suryani (2023); Pansare et al. (2025); Hosen et al. (2026); Toktassyn & Al-Hubaishi (2026) | Convert SQL query text into numerical features | Useful for representing query terms | Fixed representation may not fully capture unseen or complex patterns |
+| SHAP | Hosen et al. (2026) | Explain ML predictions | Improves interpretability | Adds an additional explanation component |
 
 ## Selected Algorithm
 
