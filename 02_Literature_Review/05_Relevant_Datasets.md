@@ -15,16 +15,6 @@ Relevant sources identified from previous research include:
 - SQL Injection payload datasets
 - HTTP request datasets containing SQL Injection attempts
 
-## 3. Examples from Previous Research
-
-| Study | Dataset Information |
-|---|---|
-| Pansare et al. (2025) | 30,000 SQL queries consisting of legitimate and malicious queries |
-| Zhang et al. (2022) | 30,919 SQL statements, including SQL Injection and non-SQL Injection statements |
-| Toktassyn & Al-Hubaishi (2026) | 244,068 queries containing malicious and legitimate queries |
-
-These datasets demonstrate that SQL Injection research uses datasets with different sizes and distributions for their studies.
-
 ## 4. Dataset Selection Criteria
 
 The datasets selected for the proposed research should:
