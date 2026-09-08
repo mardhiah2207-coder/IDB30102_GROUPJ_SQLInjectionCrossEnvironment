@@ -16,5 +16,4 @@
 
 Pansare, S. S., Nimbalkar, P. S., Mhaske, P. P., Kadam, S. P., Patil, G. P., & Angadi, S. (2025). 
 Preventing SQL Injection Attacks with Machine Learning: A TF-IDF + XGBoost Approach. 2025 
-2Nd International Conference on Computing and Data Science (ICCDS), 1–6. https://ieeexplore
-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=11208967
+2Nd International Conference on Computing and Data Science (ICCDS), 1–6. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=11208967
