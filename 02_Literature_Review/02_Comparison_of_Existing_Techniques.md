@@ -2,15 +2,15 @@
 
 ## 1. Overview
 
-Existing SQL Injection detection and prevention techniques can be divided into traditional approaches, machine learning (ML), and deep learning (DL). Each approach provides different advantages in terms of detection capability, computational requirements, complexity, and adaptability.
+Existing SQL Injection detection and prevention techniques can be divided into several approaches which is traditional, machine learning (ML), and deep learning (DL). Each approach provides different advantages in terms of detection capability, computational requirements, complexity, and adaptability.
 
 ## 2. Traditional Approaches
 
-Traditional SQL Injection approaches commonly include predefined rules, pattern matching, input validation, and parameterised queries.
+Traditional SQL Injection approaches genrally include predefined rules, pattern matching, input validation, and parameterised queries.
 
-Kini et al. (2022) applied the Aho-Corasick algorithm to identify SQL Injection patterns and achieved 90.23% detection accuracy. Parameterised queries have also been investigated as a prevention mechanism because they separate user input from SQL commands.
+Kini et al. (2022) applied the Aho-Corasick algorithm to identify SQL Injection patterns and achieved 90.23% detection accuracy. Parameterised queries have also been examined as a prevention mechanism because they separate user input from SQL commands.
 
-The main advantage of traditional approaches is their simplicity and relatively low computational requirements. However, pattern-based techniques may have difficulties identifying modified, obfuscated, or previously unseen SQL Injection payloads.
+The primary advantage of traditional approaches is their simplicity and relatively low computational requirements. However, pattern-based techniques may have difficulties identifying modified, obfuscated, or previously unseen SQL Injection payloads.
 
 ## 3. Machine Learning Approaches
 
@@ -39,6 +39,6 @@ These approaches can capture complex contextual and sequential patterns. However
 
 Overall, the reviewed studies demonstrate that ML and DL techniques can achieve high SQL Injection detection performance. However, the reported performance is often associated with the datasets used for training and evaluation.
 
-Therefore, high accuracy on a single dataset does not necessarily demonstrate that a model can generalise effectively to other SQL Injection datasets. This observation motivates further investigation into cross-dataset evaluation.
+Therefore, high accuracy on a single dataset does not necessarily demonstrate that a model can generalise effectively to other SQL Injection datasets. This observation encourages further investigation into cross-dataset evaluation.
 
 For the proposed research, Random Forest is selected as a practical ML approach because it provides a relatively straightforward model structure and is easier to interpret and implement. The research does not assume that Random Forest is universally superior to other ML or DL techniques. Instead, its ability to maintain detection performance across different SQL Injection datasets will be investigated.
