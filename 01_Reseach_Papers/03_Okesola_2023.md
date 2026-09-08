@@ -14,4 +14,9 @@
 
 ## Reference
 
-Okesola, J. O., Ogunbanwo, A. S., Owoade, A., Olorunnisola, E. O., & Okokpuji, K. (2023). *Securing web applications against SQL injection attacks: A parameterised query perspective*. 2023 International Conference on Science, Engineering and Business for Sustainable Development Goals (SEB-SDG), 1–6. https://doi.org/10.1109/SEB-SDG57117.2023.10124613
+J. O. Okesola, A. S. Ogunbanwo, A. Owoade, E. O. Olorunnisola and K. Okokpuji. (2023) Securing web 
+applications against SQL injection attacks - A Parameterised Query perspective. 2023 
+International Conference on Science, Engineering and Business for Sustainable Development 
+Goals (SEB-SDG), Omu-Aran, Nigeria, 2023, pp. 1-6, doi: 10.1109/SEB
+SDG57117.2023.10124613. https://ieeexplore-ieee
+org.remotexs.unikl.edu.my/document/10124613 
