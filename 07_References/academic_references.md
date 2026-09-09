@@ -81,3 +81,8 @@ https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=1
 detection: A comparative analysis and hybrid framework proposal. 2026 2nd 
 International Conference on Computational Intelligence Approaches and Applications 
 (ICCIAA), 1–6. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=11543922]
+
+- [Ortiz, R. M. M., & Calanda, F. B. (2026). ThreatShield: Web-based diagnostic tool for detecting 
+and mitigating SQL vulnerabilities on PHP login forms. 2026 International Conference on 
+Integrated Intelligence and Cognitive Engineering (ICIICE), 1–6. https://ieeexplore-ieee
+org.remotexs.unikl.edu.my/document/11565403]
