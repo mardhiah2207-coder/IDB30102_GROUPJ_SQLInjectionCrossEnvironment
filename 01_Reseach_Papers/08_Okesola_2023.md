@@ -2,7 +2,7 @@
 
 | Item | Required Information |
 |---|---|
-| **Paper Title** | *Securing Web Applications Against SQL Injection Attacks: A Parameterised Query Perspective* |
+| **Paper Title** | Securing Web Applications Against SQL Injection Attacks: A Parameterised Query Perspective |
 | **Author(s)** | J. O. Okesola, A. S. Ogunbanwo, A. Owoade, E. O. Olorunnisola, and K. Okokpuji |
 | **Year** | 2023 |
 | **Research Problem** | The study investigates SQL injection vulnerabilities in web applications and how parameterised queries can reduce the risk of malicious input being interpreted as part of an SQL statement. |
