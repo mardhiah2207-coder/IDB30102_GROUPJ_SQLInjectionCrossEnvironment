@@ -84,5 +84,4 @@ International Conference on Computational Intelligence Approaches and Applicatio
 
 - [Ortiz, R. M. M., & Calanda, F. B. (2026). ThreatShield: Web-based diagnostic tool for detecting 
 and mitigating SQL vulnerabilities on PHP login forms. 2026 International Conference on 
-Integrated Intelligence and Cognitive Engineering (ICIICE), 1–6. https://ieeexplore-ieee
-org.remotexs.unikl.edu.my/document/11565403]
+Integrated Intelligence and Cognitive Engineering (ICIICE), 1–6. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11565403]
