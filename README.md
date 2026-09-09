@@ -231,7 +231,7 @@ The proposed three-layer architecture is based on the architecture developed in 
 
 ### 8.4 System Flow
 
-
+```text
 Start
   ↓
 Receive SQL Query / HTTP Request
@@ -243,13 +243,13 @@ TF-IDF Feature Extraction
 Random Forest Classifier
   ↓
 Is the Query Malicious?
-       ↓
-   ┌───┴────┐
-  Yes       No
-   ↓         ↓
-Block &    Allow
-Log Alert  Query
-   ↓         ↓
+      ↓
+   ┌──┴───┐
+  Yes     No
+   ↓       ↓
+Block &   Allow
+Log Alert Query
+```
 
 ## 9. Technical Components
 
