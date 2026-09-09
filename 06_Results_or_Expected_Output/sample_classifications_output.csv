@@ -1,0 +1,5 @@
+sample_id,environment,input_type,expected_classification
+1,Environment A,Normal SQL Query,Normal
+2,Environment A,SQL Injection Query,SQL Injection
+3,Environment B,Normal HTTP Parameter,Normal
+4,Environment B,SQL Injection HTTP Parameter,SQL Injection
