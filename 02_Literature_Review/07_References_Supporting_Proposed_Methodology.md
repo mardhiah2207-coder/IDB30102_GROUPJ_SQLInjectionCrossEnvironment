@@ -10,7 +10,6 @@ Arif et al. investigated SQL Injection detection and prevention for MySQL databa
 
 Reference: Arif, A. A. S., Purwoko, R., Qomariasih, N., & Setiawan, H. (2022). *Analysis of SQL Injection Attack Detection and Prevention on MySQL Database Using Input Categorization and Input Verifier*. 2022 IEEE 8th Information Technology International Seminar (ITIS), 190–194.
 
---
 
 ## 2. Kini et al. (2022)
 
