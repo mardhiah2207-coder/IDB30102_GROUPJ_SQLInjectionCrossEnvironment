@@ -2,6 +2,8 @@
 
 The following studies support the development and evaluation of the proposed machine learning-based SQL Injection detection approach.
 
+--
+
 ## 1. Arif et al. (2022)
 
 Arif et al. investigated SQL Injection detection and prevention for MySQL databases using input categorization and an input verifier. The study evaluated the approach using 15 web applications with five different database characteristics. The method categorized user input and verified whether the input was safe or malicious before blocking potential SQL Injection attempts.
@@ -28,11 +30,7 @@ Muliono et al. investigated the prediction of the impact of SQL Injection attack
 
 **Relevance:** Demonstrates how machine learning can be used not only to detect SQL Injection attacks but also to classify their potential security impact, while highlighting the importance of training data quality.
 
-Reference: Y. Muliono, M. Y. Darus, C. R. Pardomuan, M. A. M. Ariffin and A. Kurniawan. (2022) Predicting 
-Confidentiality, Integrity, and Availability from SQL Injection Payload. 2022 International 
-Conference on Information Management and Technology (ICIMTech), Semarang, Indonesia, 
-UniKL CDDH v4 Appendix N - Assessment Coversheet v3 (2025-12-03)  
-2022, pp. 600-605.
+Reference: Y. Muliono, M. Y. Darus, C. R. Pardomuan, M. A. M. Ariffin and A. Kurniawan. (2022) *Predicting Confidentiality, Integrity, and Availability from SQL Injection Payload*. 2022 International Conference on Information Management and Technology (ICIMTech), Semarang, Indonesia, 2022, pp. 600-605.
 
 DOI: 10.1109/ICIMTech55957.2022.9915227
 
@@ -44,10 +42,7 @@ Qbea’h et al. reviewed different SQL Injection attack types and mitigation tec
 
 **Relevance:** Provides an overview of existing SQL Injection detection and mitigation approaches and highlights the need for more comprehensive solutions that can handle different attack types and environments.
 
-Reference: M. Qbea'h, S. Alrabaee, M. Alshraideh and K. E. Sabri. (2022) Diverse Approaches Have Been 
-Presented To Mitigate SQL Injection Attack, But It Is Still Alive: A Review. 2022 International 
-Conference on Computer and Applications (ICCA), Cairo, Egypt, 2022, pp. 1-5, doi: 
-10.1109/ICCA56443.2022.10039611. 
+Reference: M. Qbea'h, S. Alrabaee, M. Alshraideh and K. E. Sabri. (2022) *Diverse Approaches Have Been Presented To Mitigate SQL Injection Attack, But It Is Still Alive: A Review*. 2022 International Conference on Computer and Applications (ICCA), Cairo, Egypt, 2022, pp. 1-5, doi: 10.1109/ICCA56443.2022.10039611.
 
 DOI: 10.1109/ICCA56443.2022.10039611
 
@@ -61,8 +56,7 @@ The proposed model maintained an accuracy above 96% and performed better than th
 
 **Relevance:** Provides evidence that deep learning can achieve strong SQL Injection detection performance and provides a comparison with conventional machine learning models. It also demonstrates the importance of evaluating models using multiple performance metrics.
 
-Reference: Zhang, W., Li, Y., Li, X., Shao, M., Mi, Y., Zhang, H., & Zhi, G. (2022). Deep neural network-based SQL 
-injection detection method. Security and Communication Networks, 2022, Article 4836289.
+Reference: Zhang, W., Li, Y., Li, X., Shao, M., Mi, Y., Zhang, H., & Zhi, G. (2022). *Deep neural network-based SQL injection detection method*. Security and Communication Networks, 2022, Article 4836289.
 
 DOI: 10.1155/2022/4836289
 
@@ -74,10 +68,7 @@ Bouafia et al. investigated the automatic detection and exploitation of SQL Inje
 
 **Relevance:** Demonstrates the use of automated security testing tools for SQL Injection vulnerability detection and provides a practical perspective that complements machine learning-based detection approaches.
 
-Reference: R. Bouafia, H. Benbrahim and A. Amine. (2023) Automatic Protection of Web Applications Against SQL 
-Injections: An Approach Based On Acunetix, Burp Suite and SQLMAP. 2023 9th International 
-Conference on Optimization and Applications (ICOA), AbuDhabi, United Arab Emirates, 2023, 
-pp. 1-6.
+Reference: R. Bouafia, H. Benbrahim and A. Amine. (2023) *Automatic Protection of Web Applications Against SQL Injections: An Approach Based On Acunetix, Burp Suite and SQLMAP*. 2023 9th International Conference on Optimization and Applications (ICOA), AbuDhabi, United Arab Emirates, 2023, pp. 1-6.
 
 DOI: 10.1109/ICOA58279.2023.10308827
 
@@ -89,9 +80,7 @@ Ibrohim and Suryani investigated SQL Injection classification using TF-IDF with 
 
 **Relevance:** Supports the use of machine learning and feature-based classification for SQL Injection detection.
 
-Reference: Ibrohim, M. M., & Suryani, V. (2023). Classification of SQL Injection Attacks using ensemble learning 
-SVM and Naïve Bayes. 2023 International Conference on Data Science and Its Applications 
-(ICoDSA), 230–236.
+Reference: Ibrohim, M. M., & Suryani, V. (2023). *Classification of SQL Injection Attacks using ensemble learning SVM and Naïve Bayes*. 2023 International Conference on Data Science and Its Applications (ICoDSA), 230–236.
 
 DOI: 10.1109/ICODSA58501.2023.10277436
 
@@ -103,42 +92,83 @@ Okesola et al. investigated the prevention of SQL Injection attacks from a param
 
 **Relevance:** Provides a conventional SQL Injection prevention approach and establishes a comparison point between secure coding techniques and machine learning-based detection.
 
-Reference: J. O. Okesola, A. S. Ogunbanwo, A. Owoade, E. O. Olorunnisola and K. Okokpuji. (2023) Securing web 
-applications against SQL injection attacks - A Parameterised Query perspective. 2023 
-International Conference on Science, Engineering and Business for Sustainable Development 
-Goals (SEB-SDG), Omu-Aran, Nigeria, 2023, pp. 1-6, doi: 10.1109/SEB
-SDG57117.2023.10124613.
+Reference: J. O. Okesola, A. S. Ogunbanwo, A. Owoade, E. O. Olorunnisola and K. Okokpuji. (2023) *Securing web applications against SQL injection attacks - A Parameterised Query perspective*. 2023 International Conference on Science, Engineering and Business for Sustainable Development Goals (SEB-SDG), Omu-Aran, Nigeria, 2023, pp. 1-6, doi: 10.1109/SEB-SDG57117.2023.10124613.
 
 ---
 
-## 9. Shah et al. (2024)
+## 9. Li et al. (2024)
+
+Li et al. proposed Trident, an Abstract Syntax Tree (AST)-based neural network for detecting SQL Injection attacks. The approach uses tree-based positional embedding to capture the structural characteristics of SQL statements and improve detection of complex and adversarial SQL Injection payloads.
+
+The study evaluated Trident using a public SQL Injection dataset and an adversarial sample dataset. The proposed approach achieved an F1-score of 99.7% and demonstrated strong resistance against adversarial SQL Injection samples.
+
+**Relevance:** Demonstrates the effectiveness of advanced neural-network approaches for SQL Injection detection. However, its computational and memory requirements support the investigation of a simpler and lightweight machine learning model such as Random Forest across different SQL Injection datasets.
+
+Reference: Y. Li, Z. Xu, M. Zhou, H. Wan and X. Zhao. (2024) *Trident: Detecting SQL Injection Attacks via Abstract Syntax Tree-based Neural Network*. 2024 39th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2024, pp. 2225-2229, doi: 10.1145/3691620.3695289.
+
+---
+
+## 10. Liu & Dai (2024)
+
+Liu and Dai proposed a hybrid BERT-LSTM network for SQL Injection attack detection. BERT was used to capture contextual information from SQL statements, while LSTM processed sequential features for classification.
+
+The study used the Httpparams dataset containing 10,852 malicious SQL Injection statements and 19,304 normal requests. The model achieved 97.3% accuracy, 96.3% precision, 96.2% recall and 95.8% F1-score.
+
+**Relevance:** Demonstrates that deep learning can provide strong SQL Injection detection performance. However, the relatively high model complexity motivates the investigation of a more lightweight ML approach such as Random Forest across different datasets.
+
+Reference: Y. Liu and Y. Dai. (2024) *Deep Learning in Cybersecurity: A Hybrid BERT–LSTM Network for SQL Injection Attack Detection*. IET Information Security, 2024, Article 5565950, doi: 10.1049/2024/5565950.
+
+---
+
+## 11. Liu et al. (2024)
+
+Liu et al. proposed SQLStateGuard, a learning-driven middleware framework for statement-level SQL Injection detection and defence. The framework uses SQLSG-Net with NLP-based processing and Gated Linear Units (GLU) to identify malicious SQL statements.
+
+The study evaluated the approach using two SQL Injection datasets. Dataset I contained 75,000 normal and 74,555 malicious statements, while Dataset II contained 79,316 normal and 71,757 malicious statements. The approach achieved 100% accuracy, precision, recall and F1-score for binary classification on Dataset I and approximately 99.97% for these metrics on Dataset II.
+
+**Relevance:** Demonstrates that learning-based SQL Injection detection can achieve high performance across more than one dataset. This directly supports the importance of evaluating whether a machine learning model can maintain consistent performance across different SQL Injection datasets.
+
+Reference: X. Liu, Y. Huang, T. Wang, S. Li, W. Niu, J. Shen, Q. Zhou and X. Zhou. (2024) *SQLStateGuard: Statement-Level SQL Injection Defense Based on Learning-Driven Middleware*. Proceedings of the ACM Symposium on Cloud Computing (SoCC), 2024, pp. 69-82, doi: 10.1145/3698038.3698569.
+
+---
+
+## 12. Paul et al. (2024)
+
+Paul et al. proposed SQLR34P3R for SQL Injection detection, prioritization and prevention in web and network environments. The approach uses a hybrid CNN-LSTM model to detect SQL Injection attacks from web and network traffic.
+
+The study used 457,233 benign and malicious network traffic samples and 70,023 SQL Injection and benign payload samples. The study also incorporated DVWA, Vulnado, Wireshark and SQLMap. The hybrid CNN-LSTM approach achieved an average F1-score of approximately 97%.
+
+**Relevance:** Demonstrates the effectiveness of machine learning for SQL Injection detection while highlighting practical deployment challenges such as additional latency and integration complexity. It supports the need to evaluate ML-based detection across different SQL Injection datasets.
+
+Reference: A. Paul, V. Sharma and O. Olukoya. (2024) *SQL injection attack: Detection, prioritization & prevention*. Journal of Information Security and Applications, 85, 103871, doi: 10.1016/j.jisa.2024.103871.
+
+---
+
+## 13. Shah et al. (2024)
 
 Shah et al. proposed a machine learning approach for classifying malicious SQL Injection code. Their study used feature selection with Extra Trees and applied Random Forest for classification, reporting 98.9% accuracy on Kaggle query logs.
 
 **Relevance:** Directly supports the selection of Random Forest as a practical machine learning technique for SQL Injection detection.
 
-Reference: Shah, I., Jhanjhi, N., & Brohi, S. (2024). Proposing Model for Classification of Malicious SQLi Code 
-Using Machine Learning Approach.
+Reference: Shah, I., Jhanjhi, N., & Brohi, S. (2024). *Proposing Model for Classification of Malicious SQLi Code Using Machine Learning Approach*.
 
 DOI: 10.1109/ICIESTR60916.2024.10798230
 
 ---
 
-## 10. Zulu et al. (2024)
+## 14. Zulu et al. (2024)
 
 Zulu et al. investigated the use of contextualized word embeddings for machine learning-based SQL Injection detection. The study compared contextualized and non-contextualized embeddings with several classification approaches, including neural networks, K-nearest neighbors, Random Forest and Logistic Regression. The study reported accuracy above 99% across different classification algorithms and found that contextualized embeddings could substantially reduce model training time while improving model calibration.
 
 **Relevance:** Demonstrates that feature representation can influence SQL Injection detection performance and that Random Forest can be evaluated together with different query representation techniques. The study also supports the importance of examining model performance beyond accuracy alone.
 
-Reference: Zulu, J., Han, B., Alsmadi, I., & Liang, G. (2024). Enhancing machine learning based SQL injection 
-detection using contextualized word embedding. Proceedings of the 2024 ACM Southeast 
-Conference, 211–216.
+Reference: Zulu, J., Han, B., Alsmadi, I., & Liang, G. (2024). *Enhancing machine learning based SQL injection detection using contextualized word embedding*. Proceedings of the 2024 ACM Southeast Conference, 211–216.
 
 DOI: 10.1145/3603287.3651187
 
 --
 
-## 11. Falowo et al. (2025)
+## 15. Falowo et al. (2025)
 
 Falowo et al. investigated SQL Injection detection and classification using a stacking ensemble model. The approach combined Decision Tree, Random Forest and Logistic Regression as base learners with a meta-classifier using approximately 33,000 SQL queries.
 
@@ -148,7 +178,7 @@ Reference: Falowo, G., Olorunfemi, B. O., Adeniyi, A. E., Abosede, O. B., & Ogbu
 
 ---
 
-## 12. Pansare et al. (2025)
+## 16. Pansare et al. (2025)
 
 Pansare et al. applied TF-IDF and XGBoost for SQL Injection detection using 30,000 SQL queries, consisting of 15,000 benign and 15,000 malicious queries. The study reported 99.37% accuracy, 99.41% precision, 99.31% recall and 99.36% F1-score.
 
@@ -158,19 +188,17 @@ Reference: Pansare, S. S., Nimbalkar, P. S., Mhaske, P. P., Kadam, S. P., Patil,
 
 ---
 
-## 13. Hosen et al. (2026)
+## 17. Hosen et al. (2026)
 
 Hosen et al. investigated lightweight SQL Injection detection using Decision Trees, TF-IDF and SHAP-based explainability. Their study reported 98.31% training accuracy and 97.52% accuracy on external data.
 
 **Relevance:** Particularly relevant to the proposed research because the difference between training and external evaluation demonstrates the importance of testing machine learning models on data beyond the original training dataset.
 
-Reference: Hosen, S., Zihan, A. A. M., & Mamun, N. (2026). Interpretable SQL Injection Detection: Lightweight 
-Decision Trees with SHAP-Enhanced Deployment. 2026 IEEE 2Nd International Conference on 
-Quantum Photonics, Artificial Intelligence &Amp; Networking (QPAIN), 1–5.
+Reference: Hosen, S., Zihan, A. A. M., & Mamun, N. (2026). *Interpretable SQL Injection Detection: Lightweight Decision Trees with SHAP-Enhanced Deployment*. 2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN), 1–5.
 
 ---
 
-## 14. Toktassyn and Al-Hubaishi (2026)
+## 18. Toktassyn and Al-Hubaishi (2026)
 
 Toktassyn and Al-Hubaishi investigated SQL Injection detection using advanced feature engineering and machine learning ensemble methods. Their study used 244,068 SQL queries and evaluated multiple machine learning models. Random Forest achieved 99.3% accuracy using an 80:20 split and 99.1% using a 50:50 split.
 
@@ -178,12 +206,14 @@ Toktassyn and Al-Hubaishi investigated SQL Injection detection using advanced fe
 
 Reference: Toktassyn, & Al-Hubaishi. (2026). *Enhanced SQL Injection Detection Using Advanced Feature Engineering and Machine Learning Ensemble Methods*. 4th International Conference on Data Intelligence and Computing Technologies (IDCIoT), 914–921.
 
----
+--
 
 # Methodological Implication
 
-The reviewed studies demonstrate that both traditional and machine learning approaches can be applied to SQL Injection detection and prevention. Traditional approaches such as Aho-Corasick pattern matching and parameterised queries provide established methods for identifying or preventing SQL Injection attacks, while machine learning approaches such as SVM, Naïve Bayes, Random Forest, XGBoost and ensemble models have reported strong detection performance.
+The reviewed studies demonstrate that both traditional and machine learning approaches can be applied to SQL Injection detection and prevention. Traditional approaches such as Aho-Corasick pattern matching and parameterised queries provide established methods for identifying or preventing SQL Injection attacks, while machine learning approaches such as SVM, Naïve Bayes, Random Forest, XGBoost, CNN-LSTM, BERT-LSTM and neural-network models have reported strong detection performance.
 
-However, the high performance reported in individual studies does not necessarily establish strong generalisation across different SQL Injection datasets. Several studies evaluate their models using specific datasets, while Hosen et al. (2026) demonstrate that performance can differ when external data is used.
+Several studies demonstrate strong performance using specific datasets. For example, Shah et al. (2024) and Toktassyn and Al-Hubaishi (2026) reported high Random Forest performance, while Liu et al. (2024) demonstrated high detection performance across two SQL Injection datasets. However, high performance on individual datasets does not necessarily establish strong generalization across different SQL Injection datasets. Hosen et al. (2026) also demonstrates that performance can differ when external data is used.
+
+The reviewed deep learning approaches, including Trident and BERT-LSTM, also demonstrate strong detection performance but may require higher computational and memory resources. This supports the investigation of a simpler and lightweight Random Forest approach.
 
 Therefore, the proposed research uses Random Forest to investigate whether a machine learning-based SQL Injection detection approach can maintain consistent performance across different SQL Injection datasets. Accuracy, Precision, Recall, F1-score, and Processing Time will be used to evaluate both detection effectiveness and practical efficiency.
