@@ -2,8 +2,6 @@
 
 The following studies support the development and evaluation of the proposed machine learning-based SQL Injection detection approach.
 
---
-
 ## 1. Arif et al. (2022)
 
 Arif et al. investigated SQL Injection detection and prevention for MySQL databases using input categorization and an input verifier. The study evaluated the approach using 15 web applications with five different database characteristics. The method categorized user input and verified whether the input was safe or malicious before blocking potential SQL Injection attempts.
