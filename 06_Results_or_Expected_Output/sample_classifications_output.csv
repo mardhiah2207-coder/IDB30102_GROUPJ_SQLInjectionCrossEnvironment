@@ -1,5 +1,5 @@
-sample_id,environment,input_type,actual_class,expected_prediction
-1,Environment A,SQL Query,Normal,Normal
-2,Environment A,SQL Query,SQL Injection,SQL Injection
-3,Environment B,HTTP Parameter,Normal,Normal
-4,Environment B,HTTP Parameter,SQL Injection,SQL Injection
+sample_id,environment,input_type,actual_class,expected_prediction,status
+1,Environment A,SQL Query,Normal,Normal,Illustrative
+2,Environment A,SQL Query,SQL Injection,SQL Injection,Illustrative
+3,Environment B,HTTP Parameter,Normal,Normal,Illustrative
+4,Environment B,HTTP Parameter,SQL Injection,SQL Injection,Illustrative
